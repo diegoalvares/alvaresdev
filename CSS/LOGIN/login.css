@@ -1,0 +1,42 @@
+#user, #pass{
+    font-size: 35px;
+    margin: 20px;
+    margin-left: 80px;
+    padding: 7px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+#user::placeholder, #pass::placeholder{
+    color: rgb(184, 183, 183);
+}
+
+#user:hover, #pass:hover{
+    box-shadow: 0px 0px 20px rgb(255, 250, 97);
+}
+
+#user:focus, #pass:focus{
+    box-shadow: 0px 0px 20px rgb(50, 166, 248);
+}
+
+button{
+    font-size: 40px;
+    background-color: rgb(50, 166, 248);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(124, 124, 124);
+    padding: 10px 170px 10px 170px;
+    margin-left: 80px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(41, 148, 235);
+}
+
+button:active{
+    background-color: rgb(3, 84, 160);
+}
