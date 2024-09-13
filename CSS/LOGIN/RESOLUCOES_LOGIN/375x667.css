@@ -1,0 +1,48 @@
+@media (min-width: 370px){
+    main{
+        width: 280px;
+        margin-left: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    h1{
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    #foto{
+        margin-top: 40px;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 10px;
+    }
+
+
+    #cabeca{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    #corpo{
+        width: 60px;
+        height: 40px;      
+    }
+
+    #user, #pass{
+        font-size: 25px;
+        margin-left: 10px;
+        width: 240px;
+        margin-bottom: 10px;
+    }
+
+    button{
+        margin-left: 10px;
+        font-size: 25px;
+        width: 260px;
+        height: 45px;
+        margin-bottom: 10px;
+    }
+
+}
