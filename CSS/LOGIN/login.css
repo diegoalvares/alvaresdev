@@ -6,10 +6,21 @@ h1{
     padding: 20px;
     cursor: pointer;
     transition: 0.5s;
+    border-radius: 7px;
 }
 
 h1:hover{
-    box-shadow: 0px 0px 20px rgb(255, 250, 97);
+    box-shadow: 0px 0px 10px rgb(255, 250, 97);
+}
+
+strong{
+    color: var(--azul);
+    transition: 0.5s;
+}
+
+
+strong:hover{
+    color: rgb(255, 250, 97);
 }
 
 #foto{
