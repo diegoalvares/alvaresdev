@@ -1,5 +1,60 @@
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 5px white;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h1:hover{
+    box-shadow: 0px 0px 20px rgb(255, 250, 97);
+}
+
+#foto{
+    background-color: aliceblue;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin: auto;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px var(--azul);
+    transition: 0.5s;
+}
+
+#foto:hover{
+    box-shadow: 0px 0px 20px rgb(255, 250, 97);
+}
+
+#cabeca{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: solid rgb(3, 84, 160) 3px;
+    background: linear-gradient(to bottom, var(--azul), rgb(3, 84, 160) 80%);
+    margin: auto;
+    margin-top: 20px;
+}
+
+#corpo{
+    width: 100px;
+    height: 60px;
+    border: solid rgb(3, 84, 160) 3px;
+    border-radius: 80px 80px 0px 0px;
+    background: linear-gradient(to bottom, rgb(3, 84, 160),  var(--azul));
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -3px;
+   
+}
+
+
 #user, #pass{
-    font-size: 35px;
+    font-size: 32px;
     margin: 20px;
     margin-left: 80px;
     padding: 7px;
@@ -16,12 +71,12 @@
 }
 
 #user:focus, #pass:focus{
-    box-shadow: 0px 0px 20px rgb(50, 166, 248);
+    box-shadow: 0px 0px 20px var(--azul);
 }
 
 button{
-    font-size: 40px;
-    background-color: rgb(50, 166, 248);
+    font-size: 32px;
+    background-color: var(--azul);
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(124, 124, 124);
