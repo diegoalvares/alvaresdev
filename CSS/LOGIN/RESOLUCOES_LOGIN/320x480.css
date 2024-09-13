@@ -8,6 +8,11 @@
 
     #user, #pass, button{
         margin-left: 20px;
+        width: 430px;
+    }
+
+    button{
+        width: 450px;
     }
 
     #foto{
