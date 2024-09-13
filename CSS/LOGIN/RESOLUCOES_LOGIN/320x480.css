@@ -1,0 +1,17 @@
+@media (min-width: 320px){
+    main{
+        width: 480px;
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    #user, #pass, button{
+        margin-left: 20px;
+    }
+
+    #foto{
+        margin-top: 40px;
+    }
+
+}
